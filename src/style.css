@@ -15,7 +15,7 @@ h2 {
     overflow-x: hidden;
     overflow-y: hidden;
     transition: all 0.2s;
-    transform: scale(0.98);
+    transform: scale(0.99);
     will-change: transform;
     user-select: none;
     cursor: pointer;
@@ -29,11 +29,34 @@ h2 {
   }
   
   .page {
-    display: inline-block;
     background: skyblue;
-    height: 400px;
-    min-width: 100%;
-    margin: 2em 1em;
+    height: 100vh;
+    border-radius: 40px;
+    margin-top: 10px;
+  }
+
+  .page1 {
+    background: skyblue;
+  }
+
+  .page2 {
+    background: pink;
+  }
+
+  .page3 {
+    background: green;
+  }
+
+  .page4 {
+    background: purple;
+  }
+
+  .page5 {
+    background: yellow;
+  }
+  
+  .page6 {
+    background: orangered
   }
 
 .column {

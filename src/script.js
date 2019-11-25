@@ -1,7 +1,7 @@
 const slider = document.querySelector('.pages');
 let isDown = false;
 let startY;
-let scrollDown;
+let scrollTop;
 
 slider.addEventListener('mousedown', (e) => {
   isDown = true;
@@ -22,6 +22,6 @@ slider.addEventListener('mousemove', (e) => {
   e.preventDefault();
   const y = e.pageY - slider.offsetTop;
   const walk = (y - startY) * 3; //scroll-fast
-  slider.scrollTop = scrollDown - walk;
+  slider.scrollTop = scrollTop - walk;
   console.log(walk);
 });
