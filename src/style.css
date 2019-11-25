@@ -1,5 +1,12 @@
-h2 {
-    color: white;
+
+@font-face {
+    font-family: 'CircularStdMedium';
+    src: url('CircularStd-Medium.otf');
+  }
+
+body {
+  background: black;
+  font-family: 'CircularStdMedium';
 }
 
 .header {
@@ -31,32 +38,40 @@ h2 {
   .page {
     background: skyblue;
     height: 100vh;
-    border-radius: 40px;
+    border-radius: 10px;
     margin-top: 10px;
   }
 
   .page1 {
-    background: skyblue;
+    background: #08FFE3;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100vh;
   }
 
   .page2 {
-    background: pink;
+    background: white;
   }
 
   .page3 {
-    background: green;
+    background: #FF00F5;
   }
 
   .page4 {
-    background: purple;
+    background: #F5FF00;
   }
 
   .page5 {
-    background: yellow;
+    background: rgb(81, 255, 0);
+    ;
   }
   
   .page6 {
-    background: orangered
+    background: red;
+  }
+
+  .page7 {
+    background: black
   }
 
 .column {
